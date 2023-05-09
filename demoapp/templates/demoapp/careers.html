@@ -1,0 +1,54 @@
+{% extends 'main.html' %}
+{% load custom_tags %}
+<!-- {% include 'navibar.html' %} -->
+
+<h1>This is careers page</h1>
+<!-- 
+<h2>we have job openings for below skills</h2>
+<h2>Skill required:{{dict1.Skill}}</h2>
+<h2>Experience required:{{dict1.Experience}}</h2>
+<h2>Location {{dict1.Location}}</h2> -->
+<!-- 
+<h2>Price of the product is {{price}}</h2>
+{% if dictionary.Experience < 5 %}
+    <h2>You are not eligible</h2>
+{% endif %} -->
+
+
+<!-- 25_04 -->
+
+<!-- <h2> I am looking for a job in {{place}}</h2> -->
+
+<!-- <h2>Below are the requirements for job opening</h2>
+<div>
+    <h2>Skill required {{job_req.Skill}}</h2>
+    <h2>Experience required {{job_req.Experience}}</h2>
+    <h2>Job Location  {{job_req.Location}}</h2>
+</div> -->
+
+
+  <!-- <h2>we have opening on below skillset</h2>
+  <div>
+     {% for skill in  skill_set %}
+   <ul>
+    <li>{{skill}} </li>
+  </ul>  -->
+        <!-- {% if skill == 'Python' %}
+            <h2>You are eligible for Python developer</h2>
+        {% endif%}
+     {% endfor %}
+</div>-->
+
+
+{% block content %}
+  <!-- <h2>we have opening on below skillset</h2>
+  <div>
+     {% for skill in  skill_set %}
+        <ul>
+            <li>{{skill|upper}} </li>
+        </ul>
+     {% endfor %}
+  </div> -->
+
+  <h2>Multiplication of two nums is : {{multiplication 10 20}}</h2>
+{% endblock %} 
